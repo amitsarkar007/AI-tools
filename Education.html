@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Amit Sarkar">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Education</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://kit.fontawesome.com/878884ebe6.js" crossorigin="anonymous"></script>
+  <script>
+    // Toggle dropdown menu visibility
+    function toggleDropdown() {
+      const menu = document.querySelector('#dropdown-menu');
+      menu.classList.toggle('hidden');
+    }
+    // Close dropdown if clicked outside
+    document.addEventListener('click', function(event) {
+      const menu = document.querySelector('#dropdown-menu');
+      const button = document.querySelector('#dropdown-button');
+      if (menu && !button.contains(event.target) && !menu.contains(event.target)) {
+        menu.classList.add('hidden');
+      }
+    });
+  </script>
+</head>
+<body class="bg-gray-50 font-sans flex flex-col min-h-screen">
+  <header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-6 shadow-lg flex justify-between items-center px-8 rounded-b-lg drop-shadow-md">
+    <a href="categories.html" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
+    <h1 class="text-4xl font-extrabold tracking-wide drop-shadow-md">Education</h1>
+    <div class="relative">
+      <button id="dropdown-button" onclick="toggleDropdown()" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
+      <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
+<li class='border-b border-gray-200'><a href='Automation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Automation</a></li><li class='border-b border-gray-200'><a href='Development.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Development</a></li><li class='border-b border-gray-200'><a href='Visuals.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Visuals</a></li><li class='border-b border-gray-200'><a href='Chatbot.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Chatbot</a></li><li class='border-b border-gray-200'><a href='Ideation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Ideation</a></li><li class='border-b border-gray-200'><a href='Productivity.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Productivity</a></li><li class='border-b border-gray-200'><a href='Dictation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Dictation</a></li><li class='border-b border-gray-200'><a href='Search.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Search</a></li><li class='border-b border-gray-200'><a href='Learning.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Learning</a></li><li class='border-b border-gray-200'><a href='Audio.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Audio</a></li><li class='border-b border-gray-200'><a href='Career.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Career</a></li><li class='border-b border-gray-200'><a href='Scraper.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Scraper</a></li><li class='border-b border-gray-200'><a href='LLM.html' class='block px-4 py-2 hover:bg-gray-100 transition'>LLM</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="p-8 flex-grow">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Jenni.png" alt="Jenni" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Jenni</h2>
+              <p class="text-gray-600 mt-2">Meet Your Intelligent Research Assistant</p>
+              <a href="https://jenni.ai/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Caktus.png" alt="Caktus" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Caktus</h2>
+              <p class="text-gray-600 mt-2">The ultimate AI homework helper</p>
+              <a href="https://caktus.ai/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\StudyX.png" alt="StudyX" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">StudyX</h2>
+              <p class="text-gray-600 mt-2">AI Homework Helper</p>
+              <a href="https://studyx.ai/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\SciSpace.png" alt="SciSpace" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">SciSpace</h2>
+              <p class="text-gray-600 mt-2">The Fastest Research Platform Ever</p>
+              <a href="https://typeset.io/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+    </div>
+  </main>
+  <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
+    <div class="container mx-auto text-center">
+        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i>Amit Sarkar 2025 • Powered by <a target="_blank" rel="noreferrer" class="hover:opacity-80 transition" href="https://tailwindcss.com/" title="Open Tailwind CSS website">Tailwind CSS</a></p>
+        <div class="flex justify-center space-x-6 mt-4">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>

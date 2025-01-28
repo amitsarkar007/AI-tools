@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta name="author" content="Amit Sarkar">
+  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Development</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script type="text/javascript" src="https://kit.fontawesome.com/878884ebe6.js" crossorigin="anonymous"></script>
+  <script>
+    // Toggle dropdown menu visibility
+    function toggleDropdown() {
+      const menu = document.querySelector('#dropdown-menu');
+      menu.classList.toggle('hidden');
+    }
+    // Close dropdown if clicked outside
+    document.addEventListener('click', function(event) {
+      const menu = document.querySelector('#dropdown-menu');
+      const button = document.querySelector('#dropdown-button');
+      if (menu && !button.contains(event.target) && !menu.contains(event.target)) {
+        menu.classList.add('hidden');
+      }
+    });
+  </script>
+</head>
+<body class="bg-gray-50 font-sans flex flex-col min-h-screen">
+  <header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-6 shadow-lg flex justify-between items-center px-8 rounded-b-lg drop-shadow-md">
+    <a href="categories.html" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
+    <h1 class="text-4xl font-extrabold tracking-wide drop-shadow-md">Development</h1>
+    <div class="relative">
+      <button id="dropdown-button" onclick="toggleDropdown()" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
+      <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
+<li class='border-b border-gray-200'><a href='Automation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Automation</a></li><li class='border-b border-gray-200'><a href='Visuals.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Visuals</a></li><li class='border-b border-gray-200'><a href='Chatbot.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Chatbot</a></li><li class='border-b border-gray-200'><a href='Ideation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Ideation</a></li><li class='border-b border-gray-200'><a href='Productivity.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Productivity</a></li><li class='border-b border-gray-200'><a href='Dictation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Dictation</a></li><li class='border-b border-gray-200'><a href='Search.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Search</a></li><li class='border-b border-gray-200'><a href='Learning.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Learning</a></li><li class='border-b border-gray-200'><a href='Audio.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Audio</a></li><li class='border-b border-gray-200'><a href='Career.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Career</a></li><li class='border-b border-gray-200'><a href='Scraper.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Scraper</a></li><li class='border-b border-gray-200'><a href='LLM.html' class='block px-4 py-2 hover:bg-gray-100 transition'>LLM</a></li><li class='border-b border-gray-200'><a href='Education.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Education</a></li>
+      </ul>
+    </div>
+  </header>
+  <main class="p-8 flex-grow">
+    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Lovable.png" alt="Lovable" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Lovable</h2>
+              <p class="text-gray-600 mt-2">Idea to app in seconds.</p>
+              <a href="https://lovable.dev/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\v0_by_Vercel.png" alt="v0 by Vercel" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">v0 by Vercel</h2>
+              <p class="text-gray-600 mt-2">Elevate your AI frontend with Vercel.</p>
+              <a href="https://v0.dev/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Townie.png" alt="Townie" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Townie</h2>
+              <p class="text-gray-600 mt-2">AI assistant here to help you create things on Val Town.</p>
+              <a href="https://val.town/townie/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\HeyBoss.png" alt="HeyBoss" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">HeyBoss</h2>
+              <p class="text-gray-600 mt-2">AI engineer for non-coders - apps, website & games</p>
+              <a href="https://heyboss.xyz/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Jina_Reader.png" alt="Jina Reader" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Jina Reader</h2>
+              <p class="text-gray-600 mt-2">Convert a URL to LLM-friendly input, by simply adding r.jina.ai in front.</p>
+              <a href="https://jina.ai/reader/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Builder.png" alt="Builder" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Builder</h2>
+              <p class="text-gray-600 mt-2">Accelerate your digital teams with AI-powered design-to-code, visual editing, and enterprise CMS</p>
+              <a href="https://builder.io/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Cursor.png" alt="Cursor" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Cursor</h2>
+              <p class="text-gray-600 mt-2">The AI Code Editor</p>
+              <a href="https://cursor.com/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Vanna.png" alt="Vanna" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Vanna</h2>
+              <p class="text-gray-600 mt-2">The fastest way to get actionable insights from your database just by asking questions</p>
+              <a href="https://vanna.ai/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
+            <img src="images\Screenshot_to_Code.png" alt="Screenshot to Code" class="w-full h-48 object-cover">
+            <div class="p-6">
+              <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Screenshot to Code</h2>
+              <p class="text-gray-600 mt-2">Convert any screenshot or design to clean code (with support for most frameworks)</p>
+              <a href="https://screenshottocode.com/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+            </div>
+          </div>
+        
+    </div>
+  </main>
+  <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
+    <div class="container mx-auto text-center">
+        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i>Amit Sarkar 2025 • Powered by <a target="_blank" rel="noreferrer" class="hover:opacity-80 transition" href="https://tailwindcss.com/" title="Open Tailwind CSS website">Tailwind CSS</a></p>
+        <div class="flex justify-center space-x-6 mt-4">
+            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
+            <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
+            <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
+        </div>
+    </div>
+  </footer>
+</body>
+</html>
