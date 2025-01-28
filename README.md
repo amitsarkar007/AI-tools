@@ -6,7 +6,7 @@ This project is a Python-based script that dynamically generates HTML pages to s
 
 ## Features
 
-- **Dynamic HTML Generation:** Automatically generates a `categories.html` file listing all AI tool categories with descriptions and images.
+- **Dynamic HTML Generation:** Automatically generates a `index.html` file listing all AI tool categories with descriptions and images.
 - **SEO-Friendly:** Includes meta tags (description, keywords, Open Graph, Twitter cards) for better search engine optimization.
 - **Responsive Design:** Uses Tailwind CSS to ensure the website looks great on all screen sizes.
 - **Category Pages:** Individual HTML pages are generated for each category with AI tools listed under them.
@@ -25,7 +25,7 @@ This project is a Python-based script that dynamically generates HTML pages to s
 2. **Images:** The script uses placeholder images located in the `images` directory for each category.
 
 3. **Output:**
-   - A `categories.html` page listing all categories with their descriptions and images.
+   - A `index.html` page listing all categories with their descriptions and images.
    - Individual category pages (`<category_name>.html`) displaying tools specific to that category.
 
 ---
@@ -64,10 +64,10 @@ Ensure the following structure exists:
    ```
 
 3. **Generated Output:**
-   - A `categories.html` file in the root directory.
+   - A `index.html` file in the root directory.
    - Multiple `<category_name>.html` files for individual categories.
 
-4. **Open in Browser:** Open `categories.html` in any modern web browser to explore the AI tools.
+4. **Open in Browser:** Open `index.html` in any modern web browser to explore the AI tools.
 
 ---
 

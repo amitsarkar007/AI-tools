@@ -49,7 +49,7 @@ category_images = {
     "Education": "images/Education.png"
 }
 
-# Generate categories.html
+# Generate index.html
 categories_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
@@ -96,7 +96,7 @@ for category, description in category_descriptions.items():
       </div>
     """
 
-# Close categories.html
+# Close index.html
 categories_html += """
     </div>
   </main>
@@ -114,11 +114,11 @@ categories_html += """
 </html>
 """
 
-# Save categories.html
-with open("categories.html", "w", encoding="utf-8") as f:
+# Save index.html
+with open("index.html", "w", encoding="utf-8") as f:
     f.write(categories_html)
 
-print("Generated categories.html successfully!")
+print("Generated index.html successfully!")
 
 # Generate individual category pages
 for category in category_descriptions.keys():  # Use the keys from category_descriptions
@@ -151,7 +151,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
 </head>
 <body class="bg-gray-50 font-sans flex flex-col min-h-screen">
   <header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-6 shadow-lg flex justify-between items-center px-8 rounded-b-lg drop-shadow-md">
-    <a href="categories.html" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
+    <a href="index.html" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
     <h1 class="text-4xl font-extrabold tracking-wide drop-shadow-md">{category}</h1>
     <div class="relative">
       <button id="dropdown-button" onclick="toggleDropdown()" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
