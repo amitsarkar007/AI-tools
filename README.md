@@ -1,4 +1,4 @@
-# AI Hub
+# AI Nexus
 
 This project is a Python-based script that dynamically generates HTML pages to showcase AI tools categorized into various fields, such as Automation, Development, Visuals, and more. The website utilises **Tailwind CSS** for styling and **FontAwesome** for icons.
 
