@@ -72,10 +72,19 @@ categories_html = f"""<!DOCTYPE html>
   <meta name="twitter:description" content="Discover the best AI tools available online, categorized for easy access.">
   <meta name="twitter:image" content="images/favicon.png">
 </head>
-<body class="bg-gray-50 font-sans flex flex-col min-h-screen">
-  <header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-6 shadow-lg text-center rounded-b-lg drop-shadow-md">
-    <h1 class="text-4xl font-extrabold tracking-wide drop-shadow-md">AI Hub</h1>
-  </header>
+<body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
+  <!-- Navigation Bar -->
+  <nav class="bg-white shadow-md rounded-b-lg py-4">
+    <div class="container mx-auto flex justify-center">
+      <h1 class="text-4xl font-extrabold text-purple-700">AI Hub</h1>
+    </div>
+  </nav>
+  <!-- Hero Section -->
+  <section class="text-center py-16">
+    <h1 class="text-3xl font-extrabold text-purple-700">One-stop AI directory</h1>
+    <p class="text-gray-600 mt-4">Discover the best AI tools available online, categorized for easy access.</p>
+  </section>
+  <h2 class="text-3xl font-bold text-center text-gray-800">Explore different AI categories</h2>
   <main class="p-8 flex-grow">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 """
@@ -101,13 +110,20 @@ categories_html += """
     </div>
   </main>
   <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
-    <div class="container mx-auto text-center">
-        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i>Amit Sarkar 2025 • Powered by <a target="_blank" rel="noreferrer" class="hover:opacity-80 transition" href="https://tailwindcss.com/" title="Open Tailwind CSS website">Tailwind CSS</a></p>
-        <div class="flex justify-center space-x-6 mt-4">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
-        </div>
+    <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
+      <div class="text-center md:text-left">
+        <h3 class="text-lg font-semibold" style="color:yellow"><a target="_blank" rel="noreferrer" href="index.html" title="AI Hub" class="hover:opacity-80 transition">AI Hub</a></h3>
+        <ul class="mt-2 space-y-2">
+          <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
+          <li><a href="acknowledgement.html" class="text-sm hover:opacity-80 transition">Acknowledgement</a></li>
+        </ul>
+      </div>
+      <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i> Amit Sarkar 2025</p>
+      <div class="flex justify-center md:justify-end space-x-6">
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
+      </div>
     </div>
   </footer>
 </body>
@@ -149,12 +165,13 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
     }});
   </script>
 </head>
-<body class="bg-gray-50 font-sans flex flex-col min-h-screen">
-  <header class="bg-gradient-to-r from-blue-700 to-blue-500 text-white py-6 shadow-lg flex justify-between items-center px-8 rounded-b-lg drop-shadow-md">
-    <a href="index.html" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
-    <h1 class="text-4xl font-extrabold tracking-wide drop-shadow-md">{category}</h1>
+<body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
+  <!-- Navigation Bar -->
+  <nav class="flex justify-between items-center px-10 py-4 bg-white shadow-md">
+    <a href="index.html" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
+    <h1 class="text-3xl font-extrabold text-purple-700">{ category }</h1>
     <div class="relative">
-      <button id="dropdown-button" onclick="toggleDropdown()" class="text-white text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
+      <button id="dropdown-button" onclick="toggleDropdown()" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
       <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
 """
 
@@ -167,7 +184,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
     category_html += """
       </ul>
     </div>
-  </header>
+  </nav>
   <main class="p-8 flex-grow">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 """
@@ -204,13 +221,20 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
     </div>
   </main>
   <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
-    <div class="container mx-auto text-center">
-        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i>Amit Sarkar 2025 • Powered by <a target="_blank" rel="noreferrer" class="hover:opacity-80 transition" href="https://tailwindcss.com/" title="Open Tailwind CSS website">Tailwind CSS</a></p>
-        <div class="flex justify-center space-x-6 mt-4">
-            <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
-            <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
-            <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
-        </div>
+    <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
+      <div class="text-center md:text-left">
+        <h3 class="text-lg font-semibold" style="color:yellow"><a target="_blank" rel="noreferrer" href="index.html" title="AI Hub" class="hover:opacity-80 transition">AI Hub</a></h3>
+        <ul class="mt-2 space-y-2">
+          <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
+          <li><a href="acknowledgement.html" class="text-sm hover:opacity-80 transition">Acknowledgement</a></li>
+        </ul>
+      </div>
+      <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i> Amit Sarkar 2025</p>
+      <div class="flex justify-center md:justify-end space-x-6">
+        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
+        <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
+        <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
+      </div>
     </div>
   </footer>
 </body>
