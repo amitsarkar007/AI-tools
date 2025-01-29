@@ -74,13 +74,12 @@ categories_html = f"""<!DOCTYPE html>
 </head>
 <body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
   <!-- Navigation Bar -->
-  <nav class="bg-white shadow-md rounded-b-lg py-4">
-    <div class="container mx-auto flex justify-center">
-      <h1 class="text-4xl font-extrabold text-purple-700">AI Nexus</h1>
-    </div>
+  <nav class="flex justify-center items-center px-10 py-4 bg-white shadow-md" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
+    <img src="images/favicon.png" alt="AI Nexus Logo" class="w-10 h-10 mr-4">
+    <h1 class="text-4xl font-extrabold text-purple-700">Nexus</h1>
   </nav>
   <!-- Hero Section -->
-  <section class="text-center py-16">
+  <section class="text-center pt-32 pb-16">
     <h1 class="text-3xl font-extrabold text-purple-700">One-stop AI directory</h1>
     <p class="text-gray-600 mt-4">AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.</p>
   </section>
@@ -167,7 +166,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
 </head>
 <body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
   <!-- Navigation Bar -->
-  <nav class="flex justify-between items-center px-10 py-4 bg-white shadow-md">
+  <nav class="flex justify-between items-center px-10 py-4 bg-white shadow-md" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
     <a href="index.html" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
     <h1 class="text-3xl font-extrabold text-purple-700">{ category }</h1>
     <div class="relative">
@@ -185,7 +184,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
       </ul>
     </div>
   </nav>
-  <main class="p-8 flex-grow">
+  <main class="p-8 flex-grow pt-32 pb-16">
     <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
 """
 

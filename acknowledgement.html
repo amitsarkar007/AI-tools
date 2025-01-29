@@ -18,15 +18,25 @@
       transform: scale(1.05);
       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     }
+    /* Make the header fixed */
+    .fixed-header {
+      position: fixed;
+      top: 0;
+      left: 0;
+      width: 100%;
+      z-index: 1000;
+    }
+    /* Add padding to avoid content overlap */
+    body {
+      padding-top: 70px; /* Adjust based on header height */
+    }
   </style>
 </head>
 <body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
   
   <!-- Navigation Bar -->
-  <nav class="flex justify-between items-center px-10 py-4 bg-white shadow-md rounded-b-lg">
-    <a href="index.html" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
+  <nav class="fixed-header flex justify-center items-center px-10 py-4 bg-white shadow-md rounded-b-lg w-full">
     <h1 class="text-3xl font-extrabold text-purple-700">Acknowledgement</h1>
-    <div></div>
   </nav>
   
   <main class="flex-grow py-12 px-8">
