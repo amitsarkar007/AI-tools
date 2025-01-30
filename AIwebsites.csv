@@ -2,12 +2,12 @@
 Gamma,https://gamma.app/,A new medium for presenting ideas.,Ideation
 Lovable,https://lovable.dev/,Idea to app in seconds.,Development
 Make,https://make.com/,"From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform.",Automation
-ChatGPT,https://chatgpt.com/,Generative AI Chatbot,Chatbot
+ChatGPT,https://chatgpt.com/,Generative AI Chatbot,LLM
 Runway,https://runwayml.com/,"A new frontier for fast, high-fidelity, controllable video generation.",Visuals
 NotebookLM,https://notebooklm.google/,"Think smarter, not harder",Productivity
 Aqua Voice,https://withaqua.com/,Dictation that understands,Dictation
 Perplexity,https://perplexity.ai/,AI-powered answer engine,Search
-Meta AI,https://meta.ai/,Generative AI from Meta,Chatbot
+Meta AI,https://meta.ai/,Generative AI from Meta,LLM
 Myreader,https://myreader.ai/,Your AI-powered reading assistant,Learning
 Leonardo,https://leonardo.ai/,"Creativity, Unleashed.",Visuals
 cutout.pro,https://cutout.pro/,AI powered creative visual design platform,Ideation
@@ -37,14 +37,13 @@ DeepL Translator,https://deepl.com/en/translator,"Translate PDF, Word (.docx), a
 Grammarly,https://grammarly.com/,Responsible AI that ensures your writing and reputation shine,Learning
 AIApply,https://aiapply.co/,Automate your job search with AI,Career
 Canva,https://canva.com/,What will you design today?,Ideation
-DeepSeek,https://.deepseek.com/,Into the unknown chatbot,Chatbot
 Browse AI,https://browse.ai/,The easiest way to extract and monitor data from any website.,Scraper
 Courseau,https://courseau.co/,"Create great courses, fast",Productivity
 Copilot,https://copilot.microsoft.com/,Your AI companion,Chatbot
 Gemini,https://gemini.google.com/,Experience Google’s most capable AI models,LLM
 Simplified,https://simplified.com/,Your Entire Marketing in One App.,Ideation
 Langua,https://languatalk.com/langua,The most advanced AI for language learning,Learning
-DeepSeek,https://chat.deepseek.com/,Experience the intelligent model.,Chatbot
+DeepSeek Chat,https://chat.deepseek.com/,Experience the intelligent model.,LLM
 SOUNDRAW,https://soundraw.io/,Music composition tool,Audio
 Pixelcut,https://pixelcut.ai,Make your photos amazing using AI,Visuals
 LibreChat,https://librechat.ai/,"Free, open-source AI chat platform that allows you to chat LLMs from multiple providers in a unified interface.",Productivity
@@ -71,7 +70,7 @@ Caktus,https://caktus.ai/,The ultimate AI homework helper,Education
 TensorPix,https://tensorpix.ai/,Online Video & Image Quality Enhancer,Visuals
 Julius,https://julius.ai/,Analyze your data with computational AI.,Productivity
 Powerdrill,https://powerdrill.ai/,"AI for serious data work, unlock 100x efficiency",Productivity
-Claude,https://claude.ai/,"Your ideas, amplified",Chatbot
+Claude,https://claude.ai/,"Your ideas, amplified",LLM
 Layla,https://layla.ai/,Your personal travel agent,Productivity
 Humbot,https://humbot.ai/,Humanize AI Text & Bypass AI Detection,Productivity
 StudyX,https://studyx.ai/,AI Homework Helper,Education
@@ -84,3 +83,12 @@ GravityWrite,https://gravitywrite.com/,Create Better Content in Less Time,Produc
 Ollama,https://ollama.com/,Get up and running with large language models.,LLM
 Descript,https://descript.com/,"AI-powered, fully featured, end-to-end video editor that you already know how to use.",Productivity
 cerebras,https://inference.cerebras.ai/,This is instant AI,Productivity
+Qwen,https://chat.qwenlm.ai/,"Ask Qwen, Know More.",LLM
+Qodo,https://qodo.ai/,"Generate confidence, not just code.",Development
+goose,https://block.github.io/goose/,"Your on-machine AI agent, automating engineering tasks seamlessly.",Development
+Focal,https://focalml.com/,Make Your Own Movies,Visuals
+Kagi,https://kagi.com/,Liberate your search,Search
+SoBrief,https://sobrief.com/,Read any book in 10 minutes,Productivity
+Mega HR,https://megahr.com/,The era of AI-first hiring has arrived.,Career
+FlowiseAI,https://flowiseai.com/,Build LLM Apps Easily,Development
+Tana,https://tana.inc/,The world’s most powerful notes,Productivity
