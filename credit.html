@@ -3,18 +3,18 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn more about AI Nexus, the founder Amit Sarkar, and the inspiration behind the platform.">
-  <meta name="keywords" content="AI Nexus, About us, Amit Sarkar, AI platform, AI tools">
+  <meta name="description" content="Acknowledgement of the tools used to build AI Nexus.">
+  <meta name="keywords" content="Acknowledgement, Tools, Development, AI Nexus, Credit">
   <meta name="author" content="Amit Sarkar">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <title>About - AI Nexus</title>
+  <title>Credit - AI Nexus</title>
   <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
   <script src="https://kit.fontawesome.com/878884ebe6.js" crossorigin="anonymous"></script>
   <style>
-    .hover-effect {
+    .tool-card {
       transition: transform 0.3s ease, box-shadow 0.3s ease;
     }
-    .hover-effect:hover {
+    .tool-card:hover {
       transform: scale(1.05);
       box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.2);
     }
@@ -44,7 +44,7 @@
   <!-- Heading -->
   <div class="flex justify-between items-center px-10 py-4 w-full">
     <a href="index.html"><img src="images/favicon.png" alt="AI Nexus Logo" class="w-8 h-8"></a>
-    <h1 class="text-4xl font-extrabold text-blue-700 text-center flex-grow">About</h1>
+    <h1 class="text-4xl font-extrabold text-blue-700 text-center flex-grow">Credit</h1>
     <div class="relative">
       <button id="dropdown-button" onclick="toggleDropdown()" class="text-blue-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
       <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
@@ -53,38 +53,50 @@
     </div>
   </div>
   
-  <main class="flex-grow">
-    <!-- About Section -->
-    <h2 class="text-3xl md:text-4xl font-semibold text-center text-black-800 p-16">
-      Meet the <span class="text-blue-500 font-bold">founder💡</span>
-    </h2>
-    
-    <!-- Creator Profile Section -->
-    <section class="flex flex-col md:flex-row items-center justify-center py-4 px-8 space-y-6 md:space-y-0 md:space-x-8">
-      <img src="images/profile.jpeg" alt="Amit Sarkar" class="w-48 h-48 rounded-full shadow-lg">
-      <div class="text-center md:text-left max-w-lg">
-        <h3 class="text-2xl font-bold text-gray-800">Amit Sarkar</h3>
-        <p class="text-black-600 mt-2">Amit Sarkar is the visionary behind <strong>AI Nexus</strong>, a platform dedicated to showcasing the most innovative AI tools available online.</p>
-        <p class="text-black-600 mt-2">With expertise in software engineering, AI, and automation, Amit aims to bridge the gap between AI innovations and users.</p>
-      </div>
-    </section>
-    
-    <!-- Inspiration & Vision Section as Cards with Graphics -->
-    <section class="py-12 px-8 flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-8">
-      <!-- Inspiration Card -->
-      <div class="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto md:mx-0 flex flex-col items-center hover-effect">
-        <h2 class="text-3xl font-bold text-blue-800 text-center">🚀 Inspiration</h2>
-        <p class="text-black-600 text-center mt-4">AI is revolutionizing industries, but finding the right AI tools can be overwhelming. AI Nexus was created to simplify this process by categorizing and showcasing the best AI-powered tools.</p>
-      </div>
+  <main class="flex-grow py-12 px-8">
+    <section class="max-w-4xl mx-auto p-6">
+      <h2 class="text-3xl md:text-4xl font-semibold text-center text-black-800 p-16">
+        <span class="text-blue-500 font-bold">🛠️ Tools </span>used
+      </h2>
+      <p class="text-black-600 text-center mt-4">This website was built using the following amazing tools and technologies</p>
       
-      <!-- Vision Card -->
-      <div class="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto md:mx-0 flex flex-col items-center hover-effect">
-        <h2 class="text-3xl font-bold text-blue-800 text-center">🌍 Vision</h2>
-        <p class="text-black-600 text-center mt-4">AI Nexus is committed to making AI accessible to everyone—developers, businesses, and creatives. We strive to be your go-to resource for discovering AI innovations.</p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-6 mt-6">
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>🎨 <a href="https://tailwindcss.com/" class="text-blue-500 hover:underline" target="_blank">Tailwind CSS</a></strong>
+          <p class="text-black-600">A utility-first CSS framework for rapid UI development.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>🤖 <a href="https://openai.com/chatgpt" class="text-blue-500 hover:underline" target="_blank">OpenAI ChatGPT</a></strong>
+          <p class="text-black-600">AI-powered assistance that helped shape the website’s content.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>🚀 <a href="https://www.netlify.com/" class="text-blue-500 hover:underline" target="_blank">Netlify</a></strong>
+          <p class="text-black-600">Seamless web hosting and deployment with ease.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>🐙 <a href="https://github.com/" class="text-blue-500 hover:underline" target="_blank">GitHub</a></strong>
+          <p class="text-black-600">Version control and collaboration for the project.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>💻 <a href="https://code.visualstudio.com/" class="text-blue-500 hover:underline" target="_blank">Microsoft VS Code</a></strong>
+          <p class="text-black-600">A powerful code editor for seamless development.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>📄 <a href="https://developer.mozilla.org/en-US/docs/Web/HTML" class="text-blue-500 hover:underline" target="_blank">HTML</a></strong>
+          <p class="text-black-600">The backbone of the web, used for structuring content.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>🔤 <a href="https://fontawesome.com/" class="text-blue-500 hover:underline" target="_blank">Font Awesome</a></strong>
+          <p class="text-black-600">A popular icon library for enhancing UI with scalable vector icons.</p>
+        </div>
+        <div class="bg-white p-6 rounded-lg shadow-md tool-card">
+          <strong>🐍 <a href="https://www.python.org/" class="text-blue-500 hover:underline" target="_blank">Python</a></strong>
+          <p class="text-black-600">A versatile programming language for web development, AI, and automation.</p>
+        </div>
       </div>
     </section>
   </main>
-
+  
   <!-- Scroll to Top Button -->
   <button onclick="scrollToTop()" class="fixed bottom-4 bg-white shadow-md right-4 text-black p-3 rounded-full shadow-x3 hover:shadow-2xl transition-transform transform hover:scale-105">
     <i class="fas fa-arrow-up"></i>

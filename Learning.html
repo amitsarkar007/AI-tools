@@ -22,77 +22,91 @@
         menu.classList.add('hidden');
       }
     });
+    function scrollToTop() {
+      window.scrollTo({ top: 0, behavior: 'smooth' });
+    }
   </script>
 </head>
-<body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
-  <!-- Navigation Bar -->
-  <nav class="flex justify-between items-center px-10 py-4 bg-white shadow-md" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
-    <a href="index.html" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
-    <h1 class="text-3xl font-extrabold text-purple-700">Learning</h1>
-    <div class="relative">
-      <button id="dropdown-button" onclick="toggleDropdown()" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
-      <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
-<li class='border-b border-gray-200'><a href='Automation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Automation</a></li><li class='border-b border-gray-200'><a href='Development.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Development</a></li><li class='border-b border-gray-200'><a href='Visuals.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Visuals</a></li><li class='border-b border-gray-200'><a href='Chatbot.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Chatbot</a></li><li class='border-b border-gray-200'><a href='Ideation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Ideation</a></li><li class='border-b border-gray-200'><a href='Productivity.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Productivity</a></li><li class='border-b border-gray-200'><a href='Dictation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Dictation</a></li><li class='border-b border-gray-200'><a href='Search.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Search</a></li><li class='border-b border-gray-200'><a href='Audio.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Audio</a></li><li class='border-b border-gray-200'><a href='Career.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Career</a></li><li class='border-b border-gray-200'><a href='Scraper.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Scraper</a></li><li class='border-b border-gray-200'><a href='LLM.html' class='block px-4 py-2 hover:bg-gray-100 transition'>LLM</a></li><li class='border-b border-gray-200'><a href='Education.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Education</a></li>
-      </ul>
-    </div>
-  </nav>
-  <main class="p-8 flex-grow pt-32 pb-16">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
 
-          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
-            <img src="images\Myreader.png" alt="Myreader" class="w-full h-48 object-cover">
+    <!-- Heading -->
+    <div class="flex justify-between items-center px-10 py-4 w-full">
+      <a href="index.html"><img src="images/favicon.png" alt="AI Nexus Logo" class="w-8 h-8"></a>
+      <h1 class="text-4xl font-extrabold text-green-700 text-center flex-grow">Learning</h1>
+      <div class="relative">
+        <button id="dropdown-button" onclick="toggleDropdown()" class="text-green-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
+        <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
+<li class='border-b border-gray-200'><a href='Automation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Automation</a></li><li class='border-b border-gray-200'><a href='Development.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Development</a></li><li class='border-b border-gray-200'><a href='Visuals.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Visuals</a></li><li class='border-b border-gray-200'><a href='Chatbot.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Chatbot</a></li><li class='border-b border-gray-200'><a href='Ideation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Ideation</a></li><li class='border-b border-gray-200'><a href='Productivity.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Productivity</a></li><li class='border-b border-gray-200'><a href='Dictation.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Dictation</a></li><li class='border-b border-gray-200'><a href='Search.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Search</a></li><li class='border-b border-gray-200'><a href='Audio.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Audio</a></li><li class='border-b border-gray-200'><a href='Career.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Career</a></li><li class='border-b border-gray-200'><a href='Scraper.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Scraper</a></li><li class='border-b border-gray-200'><a href='LLM.html' class='block px-4 py-2 hover:bg-gray-100 transition'>LLM</a></li><li class='border-b border-gray-200'><a href='Education.html' class='block px-4 py-2 hover:bg-gray-100 transition'>Education</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <!-- Main Content -->
+    <div class="flex-grow flex flex-col items-center justify-center min-h-screen px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 max-w-6xl w-full ">
+
+          <div class="bg-white p-6 rounded-2xl shadow-md text-center flex flex-col h-full hover:shadow-2xl transition-transform transform hover:scale-105">
+            <img src="images\Myreader.png" alt="Myreader" class="w-full h-48 object-cover rounded-t-lg">
             <div class="p-6">
               <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Myreader</h2>
               <p class="text-gray-600 mt-2">Your AI-powered reading assistant</p>
-              <a href="https://myreader.ai/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+              <a href="https://myreader.ai/" target="_blank" class="mt-4 inline-block text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 px-4 py-2 rounded-full transition">Visit</a>
             </div>
           </div>
         
-          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
-            <img src="images\DeepL_Translator.png" alt="DeepL Translator" class="w-full h-48 object-cover">
+          <div class="bg-white p-6 rounded-2xl shadow-md text-center flex flex-col h-full hover:shadow-2xl transition-transform transform hover:scale-105">
+            <img src="images\DeepL_Translator.png" alt="DeepL Translator" class="w-full h-48 object-cover rounded-t-lg">
             <div class="p-6">
               <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">DeepL Translator</h2>
               <p class="text-gray-600 mt-2">Translate PDF, Word (.docx), and PowerPoint (.pptx) files with our document translator.</p>
-              <a href="https://deepl.com/en/translator" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+              <a href="https://deepl.com/en/translator" target="_blank" class="mt-4 inline-block text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 px-4 py-2 rounded-full transition">Visit</a>
             </div>
           </div>
         
-          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
-            <img src="images\Grammarly.png" alt="Grammarly" class="w-full h-48 object-cover">
+          <div class="bg-white p-6 rounded-2xl shadow-md text-center flex flex-col h-full hover:shadow-2xl transition-transform transform hover:scale-105">
+            <img src="images\Grammarly.png" alt="Grammarly" class="w-full h-48 object-cover rounded-t-lg">
             <div class="p-6">
               <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Grammarly</h2>
               <p class="text-gray-600 mt-2">Responsible AI that ensures your writing and reputation shine</p>
-              <a href="https://grammarly.com/" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+              <a href="https://grammarly.com/" target="_blank" class="mt-4 inline-block text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 px-4 py-2 rounded-full transition">Visit</a>
             </div>
           </div>
         
-          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
-            <img src="images\Langua.png" alt="Langua" class="w-full h-48 object-cover">
+          <div class="bg-white p-6 rounded-2xl shadow-md text-center flex flex-col h-full hover:shadow-2xl transition-transform transform hover:scale-105">
+            <img src="images\Langua.png" alt="Langua" class="w-full h-48 object-cover rounded-t-lg">
             <div class="p-6">
               <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">Langua</h2>
               <p class="text-gray-600 mt-2">The most advanced AI for language learning</p>
-              <a href="https://languatalk.com/langua" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+              <a href="https://languatalk.com/langua" target="_blank" class="mt-4 inline-block text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 px-4 py-2 rounded-full transition">Visit</a>
             </div>
           </div>
         
-    </div>
-  </main>
-  <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
-    <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
-      <div class="text-center md:text-left">
-        <h3 class="text-lg font-semibold" style="color:yellow"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
-        <ul class="mt-2 space-y-2">
-          <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
-          <li><a href="acknowledgement.html" class="text-sm hover:opacity-80 transition">Acknowledgement</a></li>
-        </ul>
-      </div>
-      <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i> AI Nexus 2025</p>
-      <div class="flex justify-center md:justify-end space-x-6">
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
-        <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
       </div>
     </div>
+
+  <!-- Scroll to Top Button -->
+  <button onclick="scrollToTop()" class="fixed bottom-4 bg-white shadow-md right-4 text-black p-3 rounded-full shadow-x3 hover:shadow-2xl transition-transform transform hover:scale-105">
+      <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="mt-10 text-gray-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
+      <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
+        <div class="text-center md:text-left">
+          <h3 class="text-lg font-bold" style="color:black"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
+            <li><a href="credit.html" class="text-sm hover:opacity-80 transition">Credit</a></li>
+          </ul>
+        </div>
+        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
+        <div class="flex justify-center md:justify-end space-x-6">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:black"></i></a>
+        </div>
+      </div>
   </footer>
+
 </body>
 </html>

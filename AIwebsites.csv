@@ -21,7 +21,7 @@ Teal,https://tealhq.com/,Better Resume. Faster Search. More Offers.,Career
 Reclaim,https://reclaim.ai/,AI calendar for work & life.,Productivity
 Humata,https://humata.ai/,AI for your files,Productivity
 Synthesia,https://synthesia.io/,"Turn text to video, in minutes.",Visuals
-Headshot Generator AI,https://headshot-generator.ai/,AI Headshot Generator for Professionals,Ideation
+Headshot Generator AI,https://headshot-generator.ai/,AI Headshot Generator for Professionals,Visuals
 Sora,https://sora.com/,"Bring your imagination to life with text, image, or video",Visuals
 LandingAI,https://landing.ai/,Transform Your Images and Videos into Visual Intelligence,Ideation
 HuggingChat,https://huggingface.co/chat/,Making the community's best AI chat models available to everyone.,Chatbot
@@ -43,10 +43,10 @@ Copilot,https://copilot.microsoft.com/,Your AI companion,Chatbot
 Gemini,https://gemini.google.com/,Experience Google’s most capable AI models,LLM
 Simplified,https://simplified.com/,Your Entire Marketing in One App.,Ideation
 Langua,https://languatalk.com/langua,The most advanced AI for language learning,Learning
-DeepSeek Chat,https://chat.deepseek.com/,Experience the intelligent model.,LLM
+DeepSeek,https://chat.deepseek.com/,Experience the intelligent model.,LLM
 SOUNDRAW,https://soundraw.io/,Music composition tool,Audio
 Pixelcut,https://pixelcut.ai,Make your photos amazing using AI,Visuals
-LibreChat,https://librechat.ai/,"Free, open-source AI chat platform that allows you to chat LLMs from multiple providers in a unified interface.",Productivity
+LibreChat,https://librechat.ai/,"Free, open-source AI chat platform that allows you to chat LLMs from multiple providers in a unified interface.",Chatbot
 HeyBoss,https://heyboss.xyz/,"AI engineer for non-coders - apps, website & games",Development
 Suno,https://suno.com/,Make a song about anything,Audio
 Gobble Bot,https://gobble.bot/,An all-in-1 scraper designed to convert all different kinds of content into one text file.,Scraper
@@ -65,7 +65,7 @@ Anakin,https://anakin.ai/,One-Stop AI App Platform,Productivity
 AI Studios,https://aistudios.com/,Best AI Video Generator,Visuals
 AISEO,https://aiseo.ai/,"Rank Higher with AI-Driven, High-Quality Writing",Productivity
 Jenni,https://jenni.ai/,Meet Your Intelligent Research Assistant,Education
-Figma AI,https://figma.com/ai/,"Your creativity, unblocked with Figma AI",Visuals
+Figma AI,https://figma.com/ai/,"Your creativity, unblocked with Figma AI",Ideation
 Caktus,https://caktus.ai/,The ultimate AI homework helper,Education
 TensorPix,https://tensorpix.ai/,Online Video & Image Quality Enhancer,Visuals
 Julius,https://julius.ai/,Analyze your data with computational AI.,Productivity
@@ -82,7 +82,7 @@ SciSpace,https://typeset.io/,The Fastest Research Platform Ever,Education
 GravityWrite,https://gravitywrite.com/,Create Better Content in Less Time,Productivity
 Ollama,https://ollama.com/,Get up and running with large language models.,LLM
 Descript,https://descript.com/,"AI-powered, fully featured, end-to-end video editor that you already know how to use.",Productivity
-cerebras,https://inference.cerebras.ai/,This is instant AI,Productivity
+cerebras,https://inference.cerebras.ai/,This is instant AI,Chatbot
 Qwen,https://chat.qwenlm.ai/,"Ask Qwen, Know More.",LLM
 Qodo,https://qodo.ai/,"Generate confidence, not just code.",Development
 goose,https://block.github.io/goose/,"Your on-machine AI agent, automating engineering tasks seamlessly.",Development

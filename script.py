@@ -71,30 +71,36 @@ categories_html = f"""<!DOCTYPE html>
   <meta name="twitter:title" content="AI Nexus">
   <meta name="twitter:description" content="AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.">
   <meta name="twitter:image" content="images/favicon.png">
+  <script>
+    function scrollToTop() {{
+      window.scrollTo({{ top: 0, behavior: 'smooth' }});
+    }}
+  </script>
 </head>
-<body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
-  <!-- Navigation Bar -->
-  <nav class="flex justify-center items-center px-10 py-4 bg-white shadow-md" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
-    <img src="images/favicon.png" alt="AI Nexus Logo" class="w-10 h-10 mr-4">
-    <h1 class="text-4xl font-extrabold text-purple-700">Nexus</h1>
-  </nav>
-  <!-- Hero Section -->
-  <section class="text-center pt-32 pb-16">
-    <h1 class="text-3xl font-extrabold text-purple-700">One-stop AI directory</h1>
-    <p class="text-gray-600 mt-4">AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.</p>
-  </section>
-  <h2 class="text-3xl font-bold text-center text-gray-800">Explore different AI categories</h2>
-  <main class="p-8 flex-grow">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+<body class="bg-gray-100 text-gray-900">
+    <div class="flex flex-col items-center justify-center min-h-screen px-6">
+        
+        <!-- Logo -->
+        <div class="flex justify-center items-center p-10">
+            <img src="images/favicon.png" alt="AI Nexus Logo" class="w-12 h-12 mr-4">
+            <h1 class="text-5xl font-extrabold text-blue-700">Nexus</h1>
+        </div>
+        
+        <!-- Main Heading -->
+        <h1 class="text-3xl md:text-4xl font-semibold text-center text-gray-800 p-16">
+            One stop <span class="text-blue-500">AI directory</span>, <br> <span class="font-bold">categorized for easy access.</span>
+        </h1>
+        
+        <!-- Features Section -->
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 max-w-6xl w-full ">
 """
-
 # Add category cards with descriptions and images
 for category, description in category_descriptions.items():
     sanitized_category = category.replace(" ", "_")
     image_path = category_images.get(category, "")
     
     categories_html += f"""
-      <div class=\"bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden border border-gray-200\">
+      <div class=\"bg-white p-6 rounded-2xl shadow-md text-center flex flex-col h-full hover:shadow-2xl transition-transform transform hover:scale-105\">
         <img src=\"{image_path}\" alt=\"{category}\" class=\"w-full h-48 object-cover rounded-t-lg\">
         <div class=\"p-6 text-center\">
           <h2 class=\"text-xl font-extrabold text-gray-800 tracking-wide\">{category}</h2>
@@ -108,22 +114,47 @@ for category, description in category_descriptions.items():
 categories_html += """
     </div>
   </main>
-  <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
-    <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
-      <div class="text-center md:text-left">
-        <h3 class="text-lg font-semibold" style="color:yellow"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
-        <ul class="mt-2 space-y-2">
-          <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
-          <li><a href="acknowledgement.html" class="text-sm hover:opacity-80 transition">Acknowledgement</a></li>
-        </ul>
+  <!-- Testimonials Section -->
+  <div class="mt-10 max-w-6xl w-full mx-auto px-4">
+      <h2 class="text-2xl font-extrabold text-center text-gray-800 mb-6">What our users say</h2>
+      <div class="flex flex-wrap justify-center gap-4">
+          <div class="w-full sm:w-80 bg-white p-4 rounded-lg shadow-md">
+              <p class="text-gray-700 italic">"AI Nexus has transformed the way I find new AI tools. Highly recommended!"</p>
+              <p class="text-gray-900 font-bold mt-2">- Janki C.</p>
+          </div>
+          <div class="w-full sm:w-80 bg-white p-4 rounded-lg shadow-md">
+              <p class="text-gray-700 italic">"Helps me search various tools easily!"</p>
+              <p class="text-gray-900 font-bold mt-2">- Gaurav B.</p>
+          </div>
+          <div class="w-full sm:w-80 bg-white p-4 rounded-lg shadow-md">
+              <p class="text-gray-700 italic">"Easy to recommend to people. One stop place for everything. Love it!"</p>
+              <p class="text-gray-900 font-bold mt-2">- Rahul P.</p>
+          </div>
       </div>
-      <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i> AI Nexus 2025</p>
-      <div class="flex justify-center md:justify-end space-x-6">
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
-        <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
+  </div>
+
+  <!-- Scroll to Top Button -->
+  <button onclick="scrollToTop()" class="fixed bottom-4 bg-white shadow-md right-4 text-black p-3 rounded-full shadow-x3 hover:shadow-2xl transition-transform transform hover:scale-105">
+      <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="mt-10 text-gray-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
+      <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
+        <div class="text-center md:text-left">
+          <h3 class="text-lg font-bold" style="color:black"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
+            <li><a href="credit.html" class="text-sm hover:opacity-80 transition">Credit</a></li>
+          </ul>
+        </div>
+        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
+        <div class="flex justify-center md:justify-end space-x-6">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:black"></i></a>
+        </div>
       </div>
-    </div>
   </footer>
 </body>
 </html>
@@ -162,16 +193,20 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
         menu.classList.add('hidden');
       }}
     }});
+    function scrollToTop() {{
+      window.scrollTo({{ top: 0, behavior: 'smooth' }});
+    }}
   </script>
 </head>
-<body class="bg-gradient-to-br from-purple-50 to-blue-100 font-sans flex flex-col min-h-screen">
-  <!-- Navigation Bar -->
-  <nav class="flex justify-between items-center px-10 py-4 bg-white shadow-md" style="position: fixed; top: 0; left: 0; width: 100%; z-index: 1000;">
-    <a href="index.html" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-home"></i></a>
-    <h1 class="text-3xl font-extrabold text-purple-700">{ category }</h1>
-    <div class="relative">
-      <button id="dropdown-button" onclick="toggleDropdown()" class="text-purple-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
-      <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
+<body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
+
+    <!-- Heading -->
+    <div class="flex justify-between items-center px-10 py-4 w-full">
+      <a href="index.html"><img src="images/favicon.png" alt="AI Nexus Logo" class="w-8 h-8"></a>
+      <h1 class="text-4xl font-extrabold text-green-700 text-center flex-grow">{ category }</h1>
+      <div class="relative">
+        <button id="dropdown-button" onclick="toggleDropdown()" class="text-green-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
+        <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
 """
 
     # Add links to navigate to other categories
@@ -181,11 +216,13 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
             category_html += f"<li class='border-b border-gray-200'><a href='{sanitized_other_category}.html' class='block px-4 py-2 hover:bg-gray-100 transition'>{other_category}</a></li>"
 
     category_html += """
-      </ul>
+        </ul>
+      </div>
     </div>
-  </nav>
-  <main class="p-8 flex-grow pt-32 pb-16">
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8">
+
+    <!-- Main Content -->
+    <div class="flex-grow flex flex-col items-center justify-center min-h-screen px-6">
+      <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8 max-w-6xl w-full ">
 """
 
     # Filter tools by category
@@ -205,37 +242,45 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
             continue
 
         category_html += f"""
-          <div class="bg-white rounded-lg shadow-lg hover:shadow-2xl transition-transform transform hover:scale-105 overflow-hidden">
-            <img src="{image_path}" alt="{product_name}" class="w-full h-48 object-cover">
+          <div class="bg-white p-6 rounded-2xl shadow-md text-center flex flex-col h-full hover:shadow-2xl transition-transform transform hover:scale-105">
+            <img src="{image_path}" alt="{product_name}" class="w-full h-48 object-cover rounded-t-lg">
             <div class="p-6">
               <h2 class="text-xl font-extrabold text-gray-800 tracking-wide">{product_name}</h2>
               <p class="text-gray-600 mt-2">{description}</p>
-              <a href="{url}" target="_blank" class="mt-6 inline-block text-white bg-gradient-to-r from-blue-600 to-blue-500 hover:from-blue-500 hover:to-blue-400 px-4 py-2 rounded-full transition">Visit</a>
+              <a href="{url}" target="_blank" class="mt-4 inline-block text-white bg-gradient-to-r from-green-600 to-green-500 hover:from-green-500 hover:to-green-400 px-4 py-2 rounded-full transition">Visit</a>
             </div>
           </div>
         """
 
     # Close category HTML
     category_html += """
-    </div>
-  </main>
-  <footer class="bg-gray-900 text-white py-8 rounded-t-lg drop-shadow-md">
-    <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
-      <div class="text-center md:text-left">
-        <h3 class="text-lg font-semibold" style="color:yellow"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
-        <ul class="mt-2 space-y-2">
-          <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
-          <li><a href="acknowledgement.html" class="text-sm hover:opacity-80 transition">Acknowledgement</a></li>
-        </ul>
-      </div>
-      <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:white"></i> AI Nexus 2025</p>
-      <div class="flex justify-center md:justify-end space-x-6">
-        <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:white"></i></a>
-        <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:white"></i></a>
-        <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:white"></i></a>
       </div>
     </div>
+
+  <!-- Scroll to Top Button -->
+  <button onclick="scrollToTop()" class="fixed bottom-4 bg-white shadow-md right-4 text-black p-3 rounded-full shadow-x3 hover:shadow-2xl transition-transform transform hover:scale-105">
+      <i class="fas fa-arrow-up"></i>
+  </button>
+
+  <!-- Footer -->
+  <footer class="mt-10 text-gray-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
+      <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
+        <div class="text-center md:text-left">
+          <h3 class="text-lg font-bold" style="color:black"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
+          <ul class="mt-2 space-y-2">
+            <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
+            <li><a href="credit.html" class="text-sm hover:opacity-80 transition">Credit</a></li>
+          </ul>
+        </div>
+        <p class="text-sm">All Rights Reserved • <i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
+        <div class="flex justify-center md:justify-end space-x-6">
+          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:black"></i></a>
+        </div>
+      </div>
   </footer>
+
 </body>
 </html>
 """
