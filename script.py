@@ -64,13 +64,13 @@ categories_html = f"""<!DOCTYPE html>
   <script type="text/javascript" src="{fontawesome_js}" crossorigin="anonymous"></script>
   <meta property="og:title" content="AI Nexus">
   <meta property="og:description" content="AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.">
-  <meta property="og:image" content="images/favicon.png">
+  <meta property="og:image" content="https://ai-nexus.tech/images/favicon.png">
   <meta property="og:url" content="https://ai-nexus.tech/">
   <meta property="og:type" content="website">
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="AI Nexus">
   <meta name="twitter:description" content="AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.">
-  <meta name="twitter:image" content="images/favicon.png">
+  <meta name="twitter:image" content="https://ai-nexus.tech/images/favicon.png">
   <script>
     function scrollToTop() {{
       window.scrollTo({{ top: 0, behavior: 'smooth' }});
