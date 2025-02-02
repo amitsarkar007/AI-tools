@@ -147,6 +147,7 @@ categories_html += """
           <ul class="mt-2 space-y-2">
             <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
             <li><a href="credit.html" class="text-sm hover:opacity-80 transition">Credit</a></li>
+            <li><a href="explore.html" class="text-sm hover:opacity-80 transition">Explore AI</a></li>
           </ul>
         </div>
         <p><i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
@@ -271,6 +272,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
           <ul class="mt-2 space-y-2">
             <li><a href="about.html" class="text-sm hover:opacity-80 transition">About</a></li>
             <li><a href="credit.html" class="text-sm hover:opacity-80 transition">Credit</a></li>
+            <li><a href="explore.html" class="text-sm hover:opacity-80 transition">Explore AI</a></li>
           </ul>
         </div>
         <p><i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
