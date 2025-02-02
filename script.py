@@ -57,6 +57,7 @@ categories_html = f"""<!DOCTYPE html>
   <meta name="keywords" content="AI tools, artificial intelligence, AI, tools, directory, AI Nexus, Nexus">
   <meta name="author" content="Amit Sarkar">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>AI Nexus</title>
@@ -139,7 +140,7 @@ categories_html += """
   </button>
 
   <!-- Footer -->
-  <footer class="mt-10 text-gray-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
+  <footer class="mt-10 text-black-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
       <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
         <div class="text-center md:text-left">
           <h3 class="text-lg font-bold" style="color:black"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
@@ -150,7 +151,7 @@ categories_html += """
         </div>
         <p><i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
         <div class="flex justify-center md:justify-end space-x-6">
-          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
           <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:black"></i></a>
           <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:black"></i></a>
         </div>
@@ -263,7 +264,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
   </button>
 
   <!-- Footer -->
-  <footer class="mt-10 text-gray-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
+  <footer class="mt-10 text-black-900 text-sm w-full p-6 flex flex-col md:flex-row justify-between items-center">
       <div class="container mx-auto flex flex-col items-center space-y-6 md:flex-row md:justify-between px-8">
         <div class="text-center md:text-left">
           <h3 class="text-lg font-bold" style="color:black"><a href="index.html" title="AI Nexus" class="hover:opacity-80 transition">AI Nexus</a></h3>
@@ -274,7 +275,7 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
         </div>
         <p><i class="fas fa-copyright fa-fw" style="color:black"></i> AI Nexus 2025</p>
         <div class="flex justify-center md:justify-end space-x-6">
-          <a target="_blank" rel="noreferrer" href="https://www.linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
+          <a target="_blank" rel="noreferrer" href="https://linkedin.com/in/amitsarkar007" title="LinkedIn" class="hover:opacity-80 transition"><i class="fab fa-linkedin fa-fw" style="font-size:20px;color:black"></i></a>
           <a target="_blank" rel="noreferrer" href="https://twitter.com/amit_Sarkar007" title="Twitter" class="hover:opacity-80 transition"><i class="fab fa-twitter fa-fw" style="font-size:20px;color:black"></i></a>
           <a target="_blank" rel="noreferrer" href="https://github.com/amitsarkar007" title="GitHub" class="hover:opacity-80 transition"><i class="fab fa-github fa-fw" style="font-size:20px;color:black"></i></a>
         </div>

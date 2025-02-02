@@ -1,6 +1,6 @@
 https://ai-nexus.tech/
 https://ai-nexus.tech/about
-https://ai-nexus.tech/acknowledgement
+https://ai-nexus.tech/credit
 https://ai-nexus.tech/automation
 https://ai-nexus.tech/development
 https://ai-nexus.tech/visuals
@@ -15,3 +15,6 @@ https://ai-nexus.tech/career
 https://ai-nexus.tech/scraper
 https://ai-nexus.tech/llm
 https://ai-nexus.tech/education
+https://ai-nexus.tech/tokens
+https://ai-nexus.tech/agi
+https://ai-nexus.tech/bias

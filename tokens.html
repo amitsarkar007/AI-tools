@@ -3,8 +3,8 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Learn more about AI Nexus, the founder Amit Sarkar, and the inspiration behind the platform.">
-  <meta name="keywords" content="AI Nexus, About us, Amit Sarkar, AI platform, AI tools">
+  <meta name="description" content="Understanding Tokens in LLM: What They Are, How They Work, and Why They Matter.">
+  <meta name="keywords" content="LLM Tokens, Tokenisation, AI Text Processing, NLP, Large Language Models">
   <meta name="author" content="Amit Sarkar">
   <link rel="icon" href="images/favicon.png" type="image/x-icon">
   <title>About - AI Nexus</title>
@@ -44,7 +44,7 @@
   <!-- Heading -->
   <div class="flex justify-between items-center px-10 py-4 w-full">
     <a href="index.html"><img src="images/favicon.png" alt="AI Nexus Logo" class="w-8 h-8"></a>
-    <h1 class="text-4xl font-extrabold text-blue-700 text-center flex-grow">About</h1>
+    <h1 class="text-4xl font-extrabold text-blue-700 text-center flex-grow">Tokens</h1>
     <div class="relative">
       <button id="dropdown-button" onclick="toggleDropdown()" class="text-blue-700 text-2xl hover:opacity-80 transition"><i class="fas fa-bars"></i></button>
       <ul id="dropdown-menu" class="absolute hidden bg-white text-gray-800 shadow-lg rounded mt-2 z-10 w-48 right-0 border border-gray-300">
@@ -53,37 +53,45 @@
     </div>
   </div>
   
-  <main class="flex-grow">
-    <!-- About Section -->
+  <main class="flex-grow py-12 px-8">
+    <!-- Tokens Section -->
     <h2 class="text-3xl md:text-4xl font-semibold text-center text-black-800 p-16">
-      Meet the <span class="text-blue-500 font-bold">founder💡</span>
+        Understanding <span class="text-blue-500 font-bold">tokens</span>  in LLM
     </h2>
     
-    <!-- Creator Profile Section -->
-    <section class="flex flex-col md:flex-row items-center justify-center py-4 px-8 space-y-6 md:space-y-0 md:space-x-8">
-      <img src="images/profile.jpeg" alt="Amit Sarkar" class="w-48 h-48 rounded-full shadow-lg">
-      <div class="text-center md:text-left max-w-lg">
-        <h3 class="text-2xl font-bold text-gray-800">Amit Sarkar</h3>
-        <p class="text-black-600 mt-2">Amit Sarkar is the visionary behind <strong>AI Nexus</strong>, a platform dedicated to showcasing the most innovative AI tools available online.</p>
-        <p class="text-black-600 mt-2">With expertise in software engineering, AI, and automation, Amit aims to bridge the gap between AI innovations and users.</p>
-      </div>
-    </section>
-    
-    <!-- Inspiration & Vision Section as Cards with Graphics -->
-    <section class="py-12 px-8 flex flex-col md:flex-row justify-center space-y-6 md:space-y-0 md:space-x-8">
-      <!-- Inspiration Card -->
-      <div class="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto md:mx-0 flex flex-col items-center hover-effect">
-        <h2 class="text-3xl font-bold text-blue-800 text-center">🚀 Inspiration</h2>
-        <p class="text-black-600 text-center mt-4">AI is revolutionizing industries, but finding the right AI tools can be overwhelming. AI Nexus was created to simplify this process by categorizing and showcasing the best AI-powered tools.</p>
-      </div>
-      
-      <!-- Vision Card -->
-      <div class="bg-white shadow-lg rounded-lg p-6 max-w-md mx-auto md:mx-0 flex flex-col items-center hover-effect">
-        <h2 class="text-3xl font-bold text-blue-800 text-center">🌍 Vision</h2>
-        <p class="text-black-600 text-center mt-4">AI Nexus is committed to making AI accessible to everyone—developers, businesses, and creatives. We strive to be your go-to resource for discovering AI innovations.</p>
-      </div>
-    </section>
-  </main>
+    <!-- Main section -->
+    <div class="max-w-3xl mx-auto bg-white p-6 rounded-lg shadow-md">
+        <p class="mt-4 text-black-600"> <strong>Tokens</strong> are the fundamental units of text that a <span class="font-semibold">Large Language Model (LLM)</span> processes. A token can be a word, subword, or even a single character depending on the tokenisation method used.</p>
+        
+        <h2 class="mt-6 text-xl font-semibold text-black-700">How tokenisation works</h2>
+        <p class="text-black-600">Most LLMs, such as GPT models, use <span class="font-semibold">Byte Pair Encoding (BPE)</span> or other tokenisation methods to split text. Here’s a simple example of tokenisation:</p>
+        <pre class="bg-gray-800 text-white p-4 rounded-md mt-3 overflow-x-auto">
+            <code>
+// Example of tokenised sentence:
+Input: "Hello, world!   "
+Tokens: ["Hello", ",", "world", "!" ]
+            </code>
+        </pre>
+
+        <h2 class="mt-6 text-xl font-semibold text-black-700">Why tokens matter</h2>
+        <ul class="list-disc list-inside text-black-600 mt-2">
+            <li>Tokens determine the cost of LLM API calls (e.g., OpenAI’s models charge based on token usage).</li>
+            <li>They define the model's context length (e.g., GPT-4 has a context window of up to 32K tokens).</li>
+            <li>Understanding tokenisation helps in optimising prompts for better responses.</li>
+        </ul>
+
+        <h2 class="mt-6 text-xl font-semibold text-black-700">Example: Counting tokens</h2>
+        <p class="text-black-600">Below is an example Python snippet to count tokens using the <code class="bg-gray-200 px-2 py-1 rounded">tiktoken</code> library:</p>
+        <pre class="bg-gray-800 text-white p-4 rounded-md mt-3 overflow-x-auto">
+            <code>
+import tiktoken
+enc = tiktoken.get_encoding("cl100k_base")
+text = "Understanding tokens in LLMs is essential."
+tokens = enc.encode(text)
+print(f"Token count: {len(tokens)}")
+            </code>
+        </pre>
+    </div>
 
   <!-- Scroll to Top Button -->
   <button onclick="scrollToTop()" class="fixed bottom-4 bg-white shadow-md right-4 text-black p-3 rounded-full shadow-x3 hover:shadow-2xl transition-transform transform hover:scale-105">
