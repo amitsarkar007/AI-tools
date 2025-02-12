@@ -30,7 +30,8 @@ category_descriptions = {
     "Career": "Tools to help with career development, job searching, and skill building.",
     "Scraper": "AI-powered web scraping and data extraction tools.",
     "LLM": "Large Language Models (LLMs) for generating text and understanding natural language.",
-    "Education": "AI tools and platforms to transform the way we teach and learn, offering personalised and interactive educational experiences."
+    "Education": "AI tools and platforms to transform the way we teach and learn, offering personalised and interactive educational experiences.",
+    "Travel": "AI-powered tools for trip planning, itinerary creation, and discovering destinations effortlessly."
 }
 
 category_images = {
@@ -47,7 +48,8 @@ category_images = {
     "Career": "images/Career.png",
     "Scraper": "images/Scraper.png",
     "LLM": "images/LLM.png",
-    "Education": "images/Education.png"
+    "Education": "images/Education.png",
+    "Travel": "images/Travel.jpg"
 }
 
 ## GENERATE INDEX.HTML PAGE ##

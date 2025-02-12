@@ -15,6 +15,7 @@ https://ai-nexus.tech/career
 https://ai-nexus.tech/scraper
 https://ai-nexus.tech/llm
 https://ai-nexus.tech/education
+https://ai-nexus.tech/travel
 https://ai-nexus.tech/tokens
 https://ai-nexus.tech/agi
 https://ai-nexus.tech/bias
