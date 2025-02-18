@@ -5,7 +5,7 @@ Make,https://make.com/,"From tasks and workflows to apps and systems, build and 
 n8n,https://n8n.io/,"Secure, AI-native workflow automation",Automation
 ChatGPT,https://chatgpt.com/,Generative AI Chatbot,LLM
 Runway,https://runwayml.com/,"A new frontier for fast, high-fidelity, controllable video generation.",Visuals
-NotebookLM,https://notebooklm.google/,"Think smarter, not harder",Productivity
+NotebookLM,https://notebooklm.google/,"Think smarter, not harder",Chatbot
 Aqua Voice,https://withaqua.com/,Dictation that understands,Dictation
 Perplexity,https://perplexity.ai/,AI-powered answer engine,Search
 Meta AI,https://meta.ai/,Generative AI from Meta,LLM
@@ -81,7 +81,7 @@ Vanna,https://vanna.ai/,The fastest way to get actionable insights from your d
 Screenshot to Code,https://screenshottocode.com/,Convert any screenshot or design to clean code (with support for most frameworks),Development
 SciSpace,https://typeset.io/,The Fastest Research Platform Ever,Education
 GravityWrite,https://gravitywrite.com/,Create Better Content in Less Time,Productivity
-Ollama,https://ollama.com/,Get up and running with large language models.,LLM
+Ollama,https://ollama.com/,Get up and running with large language models.,Chatbot
 Descript,https://descript.com/,"AI-powered, fully featured, end-to-end video editor that you already know how to use.",Productivity
 cerebras,https://inference.cerebras.ai/,This is instant AI,Chatbot
 Qwen,https://chat.qwenlm.ai/,"Ask Qwen, Know More.",LLM
@@ -128,3 +128,11 @@ LlamaIndex,https://llamaindex.ai/,Build AI Knowledge Assistants over your enterp
 AutoGen,https://microsoft.github.io/autogen/stable/,A framework for building AI agents and applications,Development
 Topaz Labs,https://topazlabs.com/,Professional-grade photo and video editing powered by AI.,Visuals
 Veo,https://deepmind.google/technologies/veo/veo-2/,Bring your video ideas to life,Visuals
+Pollo AI,https://pollo.ai/,"Ultimate, All-in-One AI Image & Video Generator",Visuals
+Pictory,https://pictory.ai/,The easiest way to create professional videos,Visuals
+Jina DeepSearch,https://search.jina.ai/,"Search, read and reason until best answer found.",Chatbot
+GPT4All,https://nomic.ai/gpt4all,Your Private and Local AI Chatbot,Chatbot
+LM Studio,https://lmstudio.ai/,"Discover, download, and run local LLMs",Chatbot
+Jan,https://jan.ai/,Chat with AI without privacy concerns,Chatbot
+LobeChat,https://lobechat.com,Built for you the Super Individual,Chatbot
+Chatbox,https://web.chatboxai.app/,Your Ultimate AI Copilot on any device,Chatbot
