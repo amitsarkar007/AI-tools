@@ -31,7 +31,8 @@ category_descriptions = {
     "Scraper": "AI-powered web scraping and data extraction tools.",
     "LLM": "Large Language Models (LLMs) for generating text and understanding natural language.",
     "Education": "AI tools and platforms to transform the way we teach and learn, offering personalised and interactive educational experiences.",
-    "Travel": "AI-powered tools for trip planning, itinerary creation, and discovering destinations effortlessly."
+    "Travel": "AI-powered tools for trip planning, itinerary creation, and discovering destinations effortlessly.",
+    "Robotics":"Advanced AI-driven tools and systems that enable automation, precision, and innovation in physical tasks and environments."
 }
 
 category_images = {
@@ -49,7 +50,8 @@ category_images = {
     "Scraper": "images/Scraper.png",
     "LLM": "images/LLM.png",
     "Education": "images/Education.png",
-    "Travel": "images/Travel.jpg"
+    "Travel": "images/Travel.jpg",
+    "Robotics":"images/Robotics.jpg"
 }
 
 ## GENERATE INDEX.HTML PAGE ##
