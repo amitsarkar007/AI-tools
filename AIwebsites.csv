@@ -1,67 +1,69 @@
 ﻿Product,URL,Description,Category
-Gamma,https://gamma.app/,A new medium for presenting ideas.,Ideation
-Lovable,https://lovable.dev/,Idea to app in seconds.,Development
-Make,https://make.com/,"From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform.",Automation
+Gamma,https://gamma.app/,A new medium for presenting ideas,Ideation
+Lovable,https://lovable.dev/,Idea to app in seconds,Development
+Make,https://make.com/,"From tasks and workflows to apps and systems, build and automate anything in one powerful visual platform",Automation
 n8n,https://n8n.io/,"Secure, AI-native workflow automation",Automation
 ChatGPT,https://chatgpt.com/,Generative AI Chatbot,LLM
-Runway,https://runwayml.com/,"A new frontier for fast, high-fidelity, controllable video generation.",Visuals
+Runway,https://runwayml.com/,"A new frontier for fast, high-fidelity, controllable video generation",Visuals
 NotebookLM,https://notebooklm.google/,"Think smarter, not harder",Chatbot
 Aqua Voice,https://withaqua.com/,Dictation that understands,Dictation
 Perplexity,https://perplexity.ai/,AI-powered answer engine,Search
 Meta AI,https://meta.ai/,Generative AI from Meta,LLM
 Myreader,https://myreader.ai/,Your AI-powered reading assistant,Learning
-Leonardo,https://leonardo.ai/,"Creativity, Unleashed.",Visuals
+Leonardo,https://leonardo.ai/,"Creativity, Unleashed",Visuals
 cutout.pro,https://cutout.pro/,AI powered creative visual design platform,Ideation
 Speechify,https://speechify.com/,Text to speech and AI voice generator,Audio
 Viggle,https://viggle.ai,Controllable video generation for content creators,Visuals
 ChatPDF,https://chatpdf.com/,Chat with any PDF,Productivity
-Cici,https://ciciai.com/,"Your AI chat assistant for intelligent conversations, writing, translation, emotional support, and programming.",Chatbot
+Cici,https://ciciai.com/,"Your AI chat assistant for intelligent conversations, writing, translation, emotional support, and programming",Chatbot
 Fireflies,https://fireflies.ai/,"AI notetaker to transcribe, summarize, analyze meetings",Productivity
 Personal AI,https://personal.ai/,Create Your Own AI Personas,Productivity
-Teal,https://tealhq.com/,Better Resume. Faster Search. More Offers.,Career
-Reclaim,https://reclaim.ai/,AI calendar for work & life.,Productivity
+Teal,https://tealhq.com/,Better Resume. Faster Search. More Offers,Career
+Reclaim,https://reclaim.ai/,AI calendar for work & life,Productivity
 Humata,https://humata.ai/,AI for your files,Productivity
-Synthesia,https://synthesia.io/,"Turn text to video, in minutes.",Visuals
+Synthesia,https://synthesia.io/,"Turn text to video, in minutes",Visuals
 Headshot Generator AI,https://headshot-generator.ai/,AI Headshot Generator for Professionals,Visuals
 Sora,https://sora.com/,"Bring your imagination to life with text, image, or video",Visuals
 LandingAI,https://landing.ai/,Transform Your Images and Videos into Visual Intelligence,Ideation
-HuggingChat,https://huggingface.co/chat/,Making the community's best AI chat models available to everyone.,Chatbot
+HuggingChat,https://huggingface.co/chat/,Making the community's best AI chat models available to everyone,Chatbot
 Flair,https://flair.ai/,Build stunning AI product photoshoots with your team in real-time,Ideation
 DreamStudio,https://dreamstudio.ai/,Start generating the images of your dreams,Visuals
 Midjourney,https://midjourney.com/,Image generation,Visuals
 ElevenLabs,https://elevenlabs.io/,Create the most realistic speech with our AI audio platform,Audio
 Supernormal ,https://supernormal.com/,"Supernormal streamlines your meeting notes, prep, and insights",Productivity
-v0 by Vercel,https://v0.dev/,Elevate your AI frontend with Vercel.,Development
-Townie,https://val.town/townie/,AI assistant here to help you create things on Val Town.,Development
+Granola,https://granola.ai/,The AI notepad for people in back-to-back meetings,Productivity
+Fathom,https://fathom.video/,Increase productivity with the #1 rated AI Notetaker,Productivity
+v0 by Vercel,https://v0.dev/,Elevate your AI frontend with Vercel,Development
+Townie,https://val.town/townie/,AI assistant here to help you create things on Val Town,Development
 Google AI Studio,https://aistudio.google.com/,Experience the multimodal model from Google DeepMind,Productivity
-DeepL Translator,https://deepl.com/en/translator,"Translate PDF, Word (.docx), and PowerPoint (.pptx) files with our document translator.",Learning
+DeepL Translator,https://deepl.com/en/translator,"Translate PDF, Word (.docx), and PowerPoint (.pptx) files with our document translator",Learning
 Grammarly,https://grammarly.com/,Responsible AI that ensures your writing and reputation shine,Learning
 AIApply,https://aiapply.co/,Automate your job search with AI,Career
 Canva,https://canva.com/,What will you design today?,Ideation
-Browse AI,https://browse.ai/,The easiest way to extract and monitor data from any website.,Scraper
+Browse AI,https://browse.ai/,The easiest way to extract and monitor data from any website,Scraper
 Courseau,https://courseau.co/,"Create great courses, fast",Productivity
 Copilot,https://copilot.microsoft.com/,Your AI companion,Chatbot
 Gemini,https://gemini.google.com/,Experience Google’s most capable AI models,LLM
-Simplified,https://simplified.com/,Your Entire Marketing in One App.,Ideation
+Simplified,https://simplified.com/,Your Entire Marketing in One App,Ideation
 Langua,https://languatalk.com/langua,The most advanced AI for language learning,Learning
-DeepSeek,https://chat.deepseek.com/,Experience the intelligent model.,LLM
+DeepSeek,https://chat.deepseek.com/,Experience the intelligent model,LLM
 SOUNDRAW,https://soundraw.io/,Music composition tool,Audio
 Pixelcut,https://pixelcut.ai,Make your photos amazing using AI,Visuals
-LibreChat,https://librechat.ai/,"Free, open-source AI chat platform that allows you to chat LLMs from multiple providers in a unified interface.",Chatbot
+LibreChat,https://librechat.ai/,"Free, open-source AI chat platform that allows you to chat LLMs from multiple providers in a unified interface",Chatbot
 HeyBoss,https://heyboss.xyz/,"AI engineer for non-coders - apps, website & games",Development
 Suno,https://suno.com/,Make a song about anything,Audio
-Gobble Bot,https://gobble.bot/,An all-in-1 scraper designed to convert all different kinds of content into one text file.,Scraper
+Gobble Bot,https://gobble.bot/,An all-in-1 scraper designed to convert all different kinds of content into one text file,Scraper
 Creatify,https://creatify.ai/,Grow Your Business with AI-powered Video Ads,Ideation
 NVIDIA ChatRTX,https://nvidia.com/en-us/ai-on-rtx/chatrtx/,Your Personalized AI Chatbot,Chatbot
 Arcade,https://arcade.ai/,World's first AI product creation platform,Ideation
-Jina Reader,https://jina.ai/reader/,"Convert a URL to LLM-friendly input, by simply adding r.jina.ai in front.",Development
+Jina Reader,https://jina.ai/reader/,"Convert a URL to LLM-friendly input, by simply adding r.jina.ai in front",Development
 Builder,https://builder.io/,"Accelerate your digital teams with AI-powered design-to-code, visual editing, and enterprise CMS",Development
 LandingAI,https://landing.ai/,Transform Your Images and Videos into Visual Intelligence,Productivity
 Napkin,https://napkin.ai/,Get visuals from your text,Visuals
 PromptHero,https://prompthero.com/,"Search millions of AI art images by models like Stable Diffusion, Midjourney...",Visuals
 Adobe Firefly,https://firefly.adobe.com/,Get creative with Adobe Firefly,Visuals
 Cursor,https://cursor.com/,The AI Code Editor,Development
-Replit,https://replit.com/,"dea to app, fast.",Development
+Replit,https://replit.com/,"dea to app, fast",Development
 Anakin,https://anakin.ai/,One-Stop AI App Platform,Productivity
 AI Studios,https://aistudios.com/,Best AI Video Generator,Visuals
 AISEO,https://aiseo.ai/,"Rank Higher with AI-Driven, High-Quality Writing",Productivity
@@ -69,7 +71,7 @@ Jenni,https://jenni.ai/,Meet Your Intelligent Research Assistant,Education
 Figma AI,https://figma.com/ai/,"Your creativity, unblocked with Figma AI",Ideation
 Caktus,https://caktus.ai/,The ultimate AI homework helper,Education
 TensorPix,https://tensorpix.ai/,Online Video & Image Quality Enhancer,Visuals
-Julius,https://julius.ai/,Analyze your data with computational AI.,Productivity
+Julius,https://julius.ai/,Analyze your data with computational AI,Productivity
 Powerdrill,https://powerdrill.ai/,"AI for serious data work, unlock 100x efficiency",Productivity
 Claude,https://claude.ai/,"Your ideas, amplified",LLM
 Layla,https://layla.ai/,Your personal travel agent,Productivity
@@ -81,16 +83,16 @@ Vanna,https://vanna.ai/,The fastest way to get actionable insights from your d
 Screenshot to Code,https://screenshottocode.com/,Convert any screenshot or design to clean code (with support for most frameworks),Development
 SciSpace,https://typeset.io/,The Fastest Research Platform Ever,Education
 GravityWrite,https://gravitywrite.com/,Create Better Content in Less Time,Productivity
-Ollama,https://ollama.com/,Get up and running with large language models.,Chatbot
-Descript,https://descript.com/,"AI-powered, fully featured, end-to-end video editor that you already know how to use.",Productivity
+Ollama,https://ollama.com/,Get up and running with large language models,Chatbot
+Descript,https://descript.com/,"AI-powered, fully featured, end-to-end video editor that you already know how to use",Productivity
 cerebras,https://inference.cerebras.ai/,This is instant AI,Chatbot
-Qwen,https://chat.qwenlm.ai/,"Ask Qwen, Know More.",LLM
-Qodo,https://qodo.ai/,"Generate confidence, not just code.",Development
-goose,https://block.github.io/goose/,"Your on-machine AI agent, automating engineering tasks seamlessly.",Development
+Qwen,https://chat.qwenlm.ai/,"Ask Qwen, Know More",LLM
+Qodo,https://qodo.ai/,"Generate confidence, not just code",Development
+goose,https://block.github.io/goose/,"Your on-machine AI agent, automating engineering tasks seamlessly",Development
 Focal,https://focalml.com/,Make Your Own Movies,Visuals
 Kagi,https://kagi.com/,Liberate your search,Search
 SoBrief,https://sobrief.com/,Read any book in 10 minutes,Productivity
-Mega HR,https://megahr.com/,The era of AI-first hiring has arrived.,Career
+Mega HR,https://megahr.com/,The era of AI-first hiring has arrived,Career
 FlowiseAI,https://flowiseai.com/,Build LLM Apps Easily,Development
 Tana,https://tana.inc/,The world’s most powerful notes,Productivity
 Loom,https://loom.com/,One video is worth a thousand words,Productivity
@@ -100,11 +102,11 @@ Molmo,https://molmo.allenai.org/,Multimodal Open Language Model built by Ai2,LL
 OLMo 2,https://playground.allenai.org/,"Meet OLMo, your open LLM",LLM
 Bolt,https://bolt.new/,What do you want to build?,Development
 You,https://you.com/,Enhance your productivity with AI,Productivity
-Stable Audio,https://stableaudio.com/,Create music with AI.,Audio
+Stable Audio,https://stableaudio.com/,Create music with AI,Audio
 Windsurf,https://codeium.com/windsurf,Built to keep you in flow state,Development
 Grok,https://x.com/i/grok,Offering unfiltered answers with advanced capabilities,LLM
-Framer,https://framer.com/,The web builder for stunning sites.,Development
-Magic Patterns,https://magicpatterns.com/,Design Faster. Think Bigger.,Ideation
+Framer,https://framer.com/,The web builder for stunning sites,Development
+Magic Patterns,https://magicpatterns.com/,Design Faster. Think Bigger,Ideation
 Character,https://character.ai/,Personalized AI for every moment of your day,Chatbot
 Krutrim,https://chat.olakrutrim.com/,"Your AI, always at hand, wherever you are!",LLM
 Presentations,https://presentations.ai/,ChatGPT for Presentations,Ideation
@@ -118,19 +120,19 @@ a0,https://a0.dev/,Mobile apps in minutes,Development
 Humva,https://humva.com/,Your Easiest Go-To Avatar Tool,Visuals
 Lightning AI,https://lightning.ai/,"Turn ideas into AI products, Lightning fast",Development
 ComfyUI,https://comfy.org/,"Visual storytelling, simplified by AI",Visuals
-Backflip AI,https://backflip.ai/,"Turn your ideas into real parts—today.",Ideation
+Backflip AI,https://backflip.ai/,"Turn your ideas into real parts—today",Ideation
 CodeRabbit,https://coderabbit.ai/,"Cut Code Review Time & Bugs in Half",Development
 Robin AI,https://robinai.com/,"Legal AI for Contracts",Productivity
 Relevance AI,https://relevanceai.com/,Build teams of AI agents that deliver human-quality work,Development
 Langflow,https://langflow.org/,Stop fighting your tools,Development
-LangChain,https://langchain.com/,Applications that can reason.,Development
+LangChain,https://langchain.com/,Applications that can reason,Development
 LlamaIndex,https://llamaindex.ai/,Build AI Knowledge Assistants over your enterprise data,Development
 AutoGen,https://microsoft.github.io/autogen/stable/,A framework for building AI agents and applications,Development
-Topaz Labs,https://topazlabs.com/,Professional-grade photo and video editing powered by AI.,Visuals
+Topaz Labs,https://topazlabs.com/,Professional-grade photo and video editing powered by AI,Visuals
 Veo,https://deepmind.google/technologies/veo/veo-2/,Bring your video ideas to life,Visuals
 Pollo AI,https://pollo.ai/,"Ultimate, All-in-One AI Image & Video Generator",Visuals
 Pictory,https://pictory.ai/,The easiest way to create professional videos,Visuals
-Jina DeepSearch,https://search.jina.ai/,"Search, read and reason until best answer found.",Chatbot
+Jina DeepSearch,https://search.jina.ai/,"Search, read and reason until best answer found",Chatbot
 GPT4All,https://nomic.ai/gpt4all,Your Private and Local AI Chatbot,Chatbot
 LM Studio,https://lmstudio.ai/,"Discover, download, and run local LLMs",Chatbot
 Jan,https://jan.ai/,Chat with AI without privacy concerns,Chatbot
@@ -145,14 +147,24 @@ Trae,https://trae.ai/,Ship Faster with Trae,Development
 Aider,https://aider.chat/,AI pair programming in your terminal,Development
 Repomix,https://repomix.com/,Pack your codebase into AI-friendly formats,Development
 Replit,https://replit.com/,Turn your ideas into apps with AI,Development
-Figure,https://figure.ai/,Expand human capabilities through advanced AI.,Robotics
-Agility Robotics,https://agilityrobotics.com/,Digit is changing everything the world knows about labor.,Robotics
-Hanson Robotics,https://hansonrobotics.com/,We bring robots to life.,Robotics
-1X,https://1x.tech/,"Building a world where we do more of what we love, while our humanoid companions handle the rest.",Robotics
-Boston Dynamics,https://bostondynamics.com/,Changing your idea of what robots can do.,Robotics
+Figure,https://figure.ai/,Expand human capabilities through advanced AI,Robotics
+Agility Robotics,https://agilityrobotics.com/,Digit is changing everything the world knows about labor,Robotics
+Hanson Robotics,https://hansonrobotics.com/,We bring robots to life,Robotics
+1X,https://1x.tech/,"Building a world where we do more of what we love, while our humanoid companions handle the rest",Robotics
+Boston Dynamics,https://bostondynamics.com/,Changing your idea of what robots can do,Robotics
 Aiva,https://aiva.ai/,Your personal AI music generation assistant,Audio
 Respeecher,https://respeecher.com/,AI voices that transform reality,Audio
-Rytr,https://rytr.me/,"Rytr's AI generates original and compelling content that sounds like you, not a robot.",Productivity
+Rytr,https://rytr.me/,"Rytr's AI generates original and compelling content that sounds like you, not a robot",Productivity
 Hunyuan Video,https://hunyuanvideoai.com/,New #1 AI Video Generator,Visuals
 HeyGen,https://heygen.com/,Create and translate videos with HeyGen AI Video Generator,Visuals
-Inception Labs,https://chat.inceptionlabs.ai,"Mercury, the first commercial-scale diffusion large language model.",LLM
+Inception Labs,https://chat.inceptionlabs.ai,"Mercury, the first commercial-scale diffusion large language model",LLM
+Clone Robotics,https://clonerobotics.com/,"Musculoskeletal, intelligent androids to solve all the common problems of daily life",Robotics
+Humanoid,https://thehumanoid.ai/,Where robots amplify human potential,Robotics
+Unitree,https://unitree.com/,"A Robot Dog, Quadruped, Humanoid Robotics Company",Robotics
+Ragie,https://ragie.ai/,"RAG-as-a-Service for developers. Fully managed, fully connected",Development
+Landing,https://landing.so/,Launch landing pages in minutes with AI,Ideation
+Guidde,https://guidde.com/,Magically create stunning how-to-guides with AI,Productivity
+Macro,https://macro.com/,The AI Operating System,Productivity
+Continue,https://continue.dev/,"Amplified developers, AI-enhanced development",Development
+Kraftful,https://kraftful.com/,Get insights to build products people love,Productivity
+Pinch,https://startpinch.com,Real-Time AI Voice Translation for Video Calls,Productivity
