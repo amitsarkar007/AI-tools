@@ -59,30 +59,40 @@ category_images = {
 categories_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
+
+  <title>AI Nexus</title>
+  <meta charset="UTF-8">
+  <meta name="author" content="Amit Sarkar">
   <meta name="description" content="AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.">
   <meta name="keywords" content="AI tools, artificial intelligence, AI, tools, directory, AI Nexus, Nexus">
-  <meta name="author" content="Amit Sarkar">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="image" content="https://ai-nexus.tech/images/favicon.png">
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="{tailwind_css_link}">
   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Nexus</title>
-  <link href="{tailwind_css_link}" rel="stylesheet">
-  <script type="text/javascript" src="{fontawesome_js}" crossorigin="anonymous"></script>
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <!-- External Scripts -->
+  <script type="text/javascript" crossorigin="anonymous" src="{fontawesome_js}"></script>
+  <script type="text/javascript" src="js/script.js" defer></script>
+  
+  <!-- Open Graph Meta Tags -->
   <meta property="og:title" content="AI Nexus">
   <meta property="og:description" content="AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.">
   <meta property="og:image" content="https://ai-nexus.tech/images/favicon.png">
   <meta property="og:url" content="https://ai-nexus.tech/">
   <meta property="og:type" content="website">
+  
+  <!-- Twitter Card Meta Tags -->
   <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@amit_Sarkar007">
   <meta name="twitter:title" content="AI Nexus">
   <meta name="twitter:description" content="AI Nexus is a curated hub showcasing top AI tools, categorized for easy access.">
   <meta name="twitter:image" content="https://ai-nexus.tech/images/favicon.png">
-  <script>
-    function scrollToTop() {{
-      window.scrollTo({{ top: 0, behavior: 'smooth' }});
-    }}
-  </script>
+
 </head>
 <body class="bg-gray-100 text-gray-900">
       
@@ -192,31 +202,40 @@ for category in category_descriptions.keys():  # Use the keys from category_desc
     category_html = f"""<!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta name="author" content="Amit Sarkar">
-  <link rel="icon" href="images/favicon.png" type="image/x-icon">
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
   <title>{category}</title>
-  <link href="{tailwind_css_link}" rel="stylesheet">
-  <script type="text/javascript" src="{fontawesome_js}" crossorigin="anonymous"></script>
-  <script>
-    // Toggle dropdown menu visibility
-    function toggleDropdown() {{
-      const menu = document.querySelector('#dropdown-menu');
-      menu.classList.toggle('hidden');
-    }}
-    // Close dropdown if clicked outside
-    document.addEventListener('click', function(event) {{
-      const menu = document.querySelector('#dropdown-menu');
-      const button = document.querySelector('#dropdown-button');
-      if (menu && !button.contains(event.target) && !menu.contains(event.target)) {{
-        menu.classList.add('hidden');
-      }}
-    }});
-    function scrollToTop() {{
-      window.scrollTo({{ top: 0, behavior: 'smooth' }});
-    }}
-  </script>
+  <meta charset="UTF-8">
+  <meta name="author" content="Amit Sarkar">
+  <meta name="description" content="{category_descriptions[category]}">
+  <meta name="keywords" content="AI tools, artificial intelligence, AI, tools, directory, AI Nexus, Nexus">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="image" content="https://ai-nexus.tech/images/favicon.png">
+
+  <!-- External Stylesheets -->
+  <link rel="stylesheet" type="text/css" href="{tailwind_css_link}">
+  <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="images/favicon.png">
+  
+  <!-- External Scripts -->
+  <script type="text/javascript" crossorigin="anonymous" src="{fontawesome_js}"></script>
+  <script type="text/javascript" src="js/script.js" defer></script>
+  
+  <!-- Open Graph Meta Tags -->
+  <meta property="og:title" content="AI Nexus - {category}">
+  <meta property="og:description" content="{category_descriptions[category]}">
+  <meta property="og:image" content="https://ai-nexus.tech/images/favicon.png">
+  <meta property="og:url" content="https://ai-nexus.tech/{category}">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card Meta Tags -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:creator" content="@amit_Sarkar007">
+  <meta name="twitter:title" content="AI Nexus - {category}">
+  <meta name="twitter:description" content="{category_descriptions[category]}">
+  <meta name="twitter:image" content="https://ai-nexus.tech/images/favicon.png">
+
 </head>
 <body class="bg-gray-100 text-gray-900 flex flex-col min-h-screen">
 
