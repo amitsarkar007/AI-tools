@@ -24,7 +24,7 @@ Humata,https://humata.ai/,AI for your files,Productivity
 Synthesia,https://synthesia.io/,"Turn text to video, in minutes",Visuals
 Headshot Generator AI,https://headshot-generator.ai/,AI Headshot Generator for Professionals,Visuals
 Sora,https://sora.com/,"Bring your imagination to life with text, image, or video",Visuals
-LandingAI,https://landing.ai/,Transform Your Images and Videos into Visual Intelligence,Ideation
+LandingAI,https://landing.ai/,Transform Your Images and Videos into Visual Intelligence,Productivity
 HuggingChat,https://huggingface.co/chat/,Making the community's best AI chat models available to everyone,Chatbot
 Flair,https://flair.ai/,Build stunning AI product photoshoots with your team in real-time,Ideation
 DreamStudio,https://dreamstudio.ai/,Start generating the images of your dreams,Visuals
@@ -43,7 +43,7 @@ Canva,https://canva.com/,What will you design today?,Ideation
 Browse AI,https://browse.ai/,The easiest way to extract and monitor data from any website,Scraper
 Courseau,https://courseau.co/,"Create great courses, fast",Productivity
 Copilot,https://copilot.microsoft.com/,Your AI companion,Chatbot
-Gemini,https://gemini.google.com/,Experience Google’s most capable AI models,LLM
+Gemini,https://gemini.google.com/,Experience Google's most capable AI models,LLM
 Simplified,https://simplified.com/,Your Entire Marketing in One App,Ideation
 Langua,https://languatalk.com/langua,The most advanced AI for language learning,Learning
 DeepSeek,https://chat.deepseek.com/,Experience the intelligent model,LLM
@@ -58,12 +58,10 @@ NVIDIA ChatRTX,https://nvidia.com/en-us/ai-on-rtx/chatrtx/,Your Personalized AI 
 Arcade,https://arcade.ai/,World's first AI product creation platform,Ideation
 Jina Reader,https://jina.ai/reader/,"Convert a URL to LLM-friendly input, by simply adding r.jina.ai in front",Development
 Builder,https://builder.io/,"Accelerate your digital teams with AI-powered design-to-code, visual editing, and enterprise CMS",Development
-LandingAI,https://landing.ai/,Transform Your Images and Videos into Visual Intelligence,Productivity
 Napkin,https://napkin.ai/,Get visuals from your text,Visuals
 PromptHero,https://prompthero.com/,"Search millions of AI art images by models like Stable Diffusion, Midjourney...",Visuals
 Adobe Firefly,https://firefly.adobe.com/,Get creative with Adobe Firefly,Visuals
 Cursor,https://cursor.com/,The AI Code Editor,Development
-Replit,https://replit.com/,"dea to app, fast",Development
 Anakin,https://anakin.ai/,One-Stop AI App Platform,Productivity
 AI Studios,https://aistudios.com/,Best AI Video Generator,Visuals
 AISEO,https://aiseo.ai/,"Rank Higher with AI-Driven, High-Quality Writing",Productivity
@@ -74,12 +72,12 @@ TensorPix,https://tensorpix.ai/,Online Video & Image Quality Enhancer,Visuals
 Julius,https://julius.ai/,Analyze your data with computational AI,Productivity
 Powerdrill,https://powerdrill.ai/,"AI for serious data work, unlock 100x efficiency",Productivity
 Claude,https://claude.ai/,"Your ideas, amplified",LLM
-Layla,https://layla.ai/,Your personal travel agent,Productivity
+Layla,https://layla.ai/,Your personal AI travel agent,Travel
 Humbot,https://humbot.ai/,Humanize AI Text & Bypass AI Detection,Productivity
 StudyX,https://studyx.ai/,AI Homework Helper,Education
 Moveworks,https://moveworks.com/,One agentic AI Assistant to empower your entire workforce,Productivity
 DeWatermark,https://dewatermark.ai/,Remove Watermark from photos online free with AI,Visuals
-Vanna,https://vanna.ai/,The fastest way to get actionable insights from your database just by asking questions,Development
+Vanna,https://vanna.ai/,The fastest way to get actionable insights from your database just by asking questions,Development
 Screenshot to Code,https://screenshottocode.com/,Convert any screenshot or design to clean code (with support for most frameworks),Development
 SciSpace,https://typeset.io/,The Fastest Research Platform Ever,Education
 GravityWrite,https://gravitywrite.com/,Create Better Content in Less Time,Productivity
@@ -94,25 +92,24 @@ Kagi,https://kagi.com/,Liberate your search,Search
 SoBrief,https://sobrief.com/,Read any book in 10 minutes,Productivity
 Mega HR,https://megahr.com/,The era of AI-first hiring has arrived,Career
 FlowiseAI,https://flowiseai.com/,Build LLM Apps Easily,Development
-Tana,https://tana.inc/,The world’s most powerful notes,Productivity
+Tana,https://tana.inc/,The world's most powerful notes,Productivity
 Loom,https://loom.com/,One video is worth a thousand words,Productivity
 Mistral,https://chat.mistral.ai/,Frontier AI in your hands,LLM
-Cohere,https://coral.cohere.com/,What’s possible when Chat and RAG come together?,LLM
-Molmo,https://molmo.allenai.org/,Multimodal Open Language Model built by Ai2,LLM
+Cohere,https://coral.cohere.com/,What's possible when Chat and RAG come together?,LLM
+Molmo,https://molmo.allenai.org/,Multimodal Open Language Model built by Ai2,LLM
 OLMo 2,https://playground.allenai.org/,"Meet OLMo, your open LLM",LLM
 Bolt,https://bolt.new/,What do you want to build?,Development
-You,https://you.com/,Enhance your productivity with AI,Productivity
+You,https://you.com/,Enhance your productivity with AI,Productivity
 Stable Audio,https://stableaudio.com/,Create music with AI,Audio
-Windsurf,https://codeium.com/windsurf,Built to keep you in flow state,Development
+Windsurf,https://codeium.com/windsurf,Built to keep you in flow state,Development
 Grok,https://x.com/i/grok,Offering unfiltered answers with advanced capabilities,LLM
 Framer,https://framer.com/,The website builder loved by designers,Development
 Magic Patterns,https://magicpatterns.com/,Design Faster. Think Bigger,Ideation
 Character,https://character.ai/,Personalized AI for every moment of your day,Chatbot
 Krutrim,https://chat.olakrutrim.com/,"Your AI, always at hand, wherever you are!",LLM
 Presentations,https://presentations.ai/,ChatGPT for Presentations,Ideation
-Layla,https://layla.ai/,Your personal AI travel agent,Travel
 SlidesAI,https://slidesai.io/,From Text to Slides in Seconds With AI Presentation Maker,Ideation
-Decktopus,https://decktopus.com/,World’s #1 AI-Powered Presentation Generator,Ideation
+Decktopus,https://decktopus.com/,World's #1 AI-Powered Presentation Generator,Ideation
 Playground,https://playground.com/,Design anything like a pro,Ideation
 Browser Use,https://browser-use.com/,Enable AI to control your browser,Development
 Photoroom,https://photoroom.com/,Images that mean business,Visuals
@@ -177,7 +174,7 @@ Concierge,https://askconcierge.ai/,Talk to your apps with natural language,Chatb
 Chatbase,https://chatbase.co/,AI Agents for magical customer experiences,Chatbot
 Fynix,https://fynix.ai/,"Code Smarter, Ship Faster",Development
 YuE,https://yueai.ai/,Open-Source AI Music Generator,Audio
-Wispr Flow,https://wisprflow.ai/,"Think it,‍ speak it, send it",Productivity
+Wispr Flow,https://wisprflow.ai/,"Think it, speak it, send it",Productivity
 Pieces,https://pieces.app/,The first AI that remembers everything you work on,Development
 Sesame,https://sesame.com/,Bringing the computer to life,Chatbot
 UBTECH,https://ubtrobot.com/en/,A New Milestone for Industrial Domains,Robotics
@@ -229,3 +226,8 @@ Firebase Studio,https://firebase.studio/,The full stack AI workspace,Development
 Readdy,https://readdy.ai/,Websites that Stand Out. Built and Published in Minutes,Development
 Beautiful,https://beautiful.ai/,"It's beautiful what you can do with a little AI",Ideation
 Cline,https://cline.bot/,The Collaborative AI Coder,Development
+Higgsfield,https://higgsfield.ai/,The Ultimate AI-Powered Camera Control For Creators,Visuals
+Numerous.ai,https://numerous.ai/,The Power of AI in Sheets and Excel,Productivity
+FLORA,https://florafauna.ai/,Your Intelligent Canvas,Visuals
+BASE44,https://base44.com/,"Turn your ideas into products, in minutes",Development
+Slidev,https://sli.dev/,Presentation Slides for Developers,Ideation
