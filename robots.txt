@@ -1,0 +1,6 @@
+# Allow all crawlers (including Googlebot) to index the site
+User-agent: *
+Allow: /
+
+# Sitemap location (helps search engines discover all pages)
+Sitemap: https://ai-nexus.tech/sitemap.txt
